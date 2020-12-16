@@ -3,6 +3,11 @@
  src: url("../font/Garamond Bold.ttf");
 }
 
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 body {
 	background-image: url(../img/1.jpg);
@@ -17,6 +22,7 @@ body {
 
 .nav-link{
 	font-size: 2em;
+  letter-spacing: 2px;
 	color: black;
 	margin-left: 15px;
 }
@@ -26,7 +32,8 @@ body {
 	border-bottom: solid 2px yellow;
 	margin-left: 2%;
 	margin-right: 2%;
-	
+  margin-top: 55px;
+
 }
 
 .texte{
@@ -38,6 +45,7 @@ body {
 
 .carte{
 	box-shadow: 5px 5px 15px 5px gray;
+
 }
 
 .carousel-caption{
@@ -105,15 +113,27 @@ h2{
 }
 
 #accordion{
-	
+
 	margin: 10%;
 }
 
 .navbar-toggler-icon{
-	background-color: gray;
+	background-color: black;
 }
 
 .reseau{
 	display: block;
 	margin: auto;
+}
+
+.bg{
+  background-color: white;
+}
+.bien{
+  margin-bottom: 28%;
+}
+
+
+.foot{
+  margin-top: 40px;
 }
