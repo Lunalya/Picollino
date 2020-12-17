@@ -23,7 +23,7 @@ body {
 .nav-link{
 	font-size: 2em;
   letter-spacing: 2px;
-	color: black;
+  color: black;
 	margin-left: 15px;
 }
 
@@ -117,9 +117,7 @@ h2{
 	margin: 10%;
 }
 
-.navbar-toggler-icon{
-	background-color: black;
-}
+
 
 .reseau{
 	display: block;
